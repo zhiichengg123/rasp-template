@@ -1,0 +1,48 @@
+DESCRIPTION
+It was noted that the root detection implemented on the UOB TMRW ID application can be bypassed using Magisk, a publicly available tool.
+
+Android
+•	Filename: 
+•	SHA256: 
+
+Setup Details
+•	Device: Pixel 4a
+•	Android Version: 11
+•	Magisk Version: 
+
+Steps to reproduce the finding:
+1	Install Magisk () with Zygisk enabled.
+2	Enable the Magisk modules – Zygisk - Lsposed, Denylist Unmount and Shamiko.
+3	Hide the Magisk application.
+4	Uncheck Enforce Denylist.
+5	Add the UOB TMRW ID application to Denylist.
+6	Install and Enable HideMyAppList, SSLUnpinning and IamNotADeveloper module in Lsposed.
+7	Create a blacklist template and hide all the app except UOB TMRW ID.
+8	Enable UOB TMRW ID application and apply the blacklist template
+Screenshot 1: Magisk installed with Zygisk enabled
+
+ 
+Screenshot 2: Enabling Magisk modules, Denylist Unmount, Zygisk - Lsposed and Shamiko
+   
+Screenshot 3: Hiding Magisk app, uncheck Enforce Denylist and add applications to Configure Denylist
+  
+Screenshot 4: Adding UOB TMRW ID application to Denylist
+ 
+Screenshot 5: Download and Enable HideMyApplist, SSLUnpinning and IAmNotADeveloper modules.
+ 
+Screenshot 6: Launch HideMyApplist Under Template manage, create a blacklist template and hide all the app except UOB TMRW ID.
+  
+Screenshot 7: Under App Manage, enable UOB TMRW ID application and apply the blacklist template.
+  
+Screenshot 8: Root detection successfully bypassed, and the application can be used on a rooted device.
+
+
+Android
+•	Filename: 
+•	SHA256: 
+
+Setup Details
+•	Device: Pixel 4a
+•	iOS Version: 11
+•	checkra1n version:
+  
